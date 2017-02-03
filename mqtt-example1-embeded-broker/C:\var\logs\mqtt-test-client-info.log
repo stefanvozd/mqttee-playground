@@ -1,0 +1,617 @@
+2017-02-03 12:49:28,295 [INFO ] Main:25 - Logger initialized...
+2017-02-03 12:49:28,299 [INFO ] Prop:20 - Loading properties...
+2017-02-03 12:49:28,302 [INFO ] Prop:25 - Properties initialized
+2017-02-03 12:49:28,356 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 12:49:28,439 [INFO ] Reflections:229 - Reflections took 52 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-02-03 12:49:28,458 [INFO ] MqttDispatcher:83 - MqttDispatcher initialized!
+2017-02-03 12:49:29,471 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:30,477 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:31,479 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:32,482 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:33,484 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:34,488 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:35,493 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:36,497 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:37,501 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:38,505 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:39,506 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:40,508 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:41,512 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:42,516 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:43,519 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:44,522 [ERROR] MqttClientFactory:68 - Connect already in progress
+Connect already in progress (32110)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:468)
+	at org.eclipse.paho.client.mqttv3.MqttAsyncClient.connect(MqttAsyncClient.java:455)
+	at rs.mqttserver.client.MqttClientFactory.getConnectedMqttAsyncClient(MqttClientFactory.java:66)
+	at rs.stefanvozd.mqttee.playground.Main.mqttReceive(Main.java:63)
+	at rs.stefanvozd.mqttee.playground.Main.main(Main.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-02-03 12:49:44,657 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51489-1486122568069-0:1) is shutting down
+2017-02-03 12:49:44,658 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 12:49:44,659 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 12:49:44,661 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 12:49:44,661 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 12:49:44,661 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 12:49:44,662 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 12:49:44,700 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51489-1486122568069-0:1) uptime 17.145 seconds
+2017-02-03 12:49:44,700 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51489-1486122568069-0:1) is shutdown
+2017-02-03 12:51:20,396 [INFO ] Main:25 - Logger initialized...
+2017-02-03 12:51:20,400 [INFO ] Prop:20 - Loading properties...
+2017-02-03 12:51:20,401 [INFO ] Prop:25 - Properties initialized
+2017-02-03 12:51:20,447 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 12:51:20,523 [INFO ] Reflections:229 - Reflections took 48 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-02-03 12:51:20,542 [INFO ] MqttDispatcher:83 - MqttDispatcher initialized!
+2017-02-03 12:51:21,551 [INFO ] MqttClientFactory:72 - Connected to broker!
+2017-02-03 12:51:21,571 [INFO ] MqttDispatcher:105 - Message arrived: [ topic=ActiveMQ/Advisory/MasterBroker, message= ]
+2017-02-03 12:51:21,571 [INFO ] MqttDispatcher:114 - Routing 'ActiveMQ/Advisory/MasterBroker' to method: [ class=class rs.mqttserver.client.Subscribers, method=t4,  async=true, subscription=# ]
+2017-02-03 12:51:21,572 [INFO ] Subscribers:16 - Enter: test/+/+ - ActiveMQ/Advisory/MasterBroker
+2017-02-03 12:51:21,572 [INFO ] Subscribers:17 - Leave: test/+/+ - ActiveMQ/Advisory/MasterBroker
+2017-02-03 12:51:21,588 [INFO ] MqttDispatcher:98 - Delivery complete!
+2017-02-03 12:51:21,588 [INFO ] MqttDispatcher:105 - Message arrived: [ topic=ActiveMQ/Advisory/Consumer/Topic/#, message= ]
+2017-02-03 12:51:21,589 [INFO ] MqttDispatcher:105 - Message arrived: [ topic=ActiveMQ/Advisory/Topic, message= ]
+2017-02-03 12:51:21,589 [INFO ] MqttDispatcher:114 - Routing 'ActiveMQ/Advisory/Topic' to method: [ class=class rs.mqttserver.client.Subscribers, method=t4,  async=true, subscription=# ]
+2017-02-03 12:51:21,589 [INFO ] MqttDispatcher:105 - Message arrived: [ topic=root/playground/client1/logging/alert/info, message=Connected! ]
+2017-02-03 12:51:21,589 [INFO ] Subscribers:16 - Enter: test/+/+ - ActiveMQ/Advisory/Topic
+2017-02-03 12:51:21,590 [INFO ] Subscribers:17 - Leave: test/+/+ - ActiveMQ/Advisory/Topic
+2017-02-03 12:51:21,590 [INFO ] MqttDispatcher:114 - Routing 'root/playground/client1/logging/alert/info' to method: [ class=class rs.mqttserver.client.Subscribers, method=t4,  async=true, subscription=# ]
+2017-02-03 12:51:21,591 [INFO ] Subscribers:16 - Enter: test/+/+ - root/playground/client1/logging/alert/info
+2017-02-03 12:51:21,591 [INFO ] Subscribers:17 - Leave: test/+/+ - root/playground/client1/logging/alert/info
+2017-02-03 12:51:32,171 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51504-1486122680208-0:1) is shutting down
+2017-02-03 12:51:32,175 [ERROR] MqttDispatcher:87 - Connection lost!
+2017-02-03 12:51:32,176 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 12:51:32,177 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 12:51:32,176 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 12:51:32,177 [ERROR] MqttDispatcher:88 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 12:51:32,179 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 12:51:32,179 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 12:51:32,179 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 12:51:32,180 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 12:51:32,180 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 12:51:32,182 [INFO ] Reflections:229 - Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-02-03 12:51:32,182 [INFO ] MqttDispatcher:83 - MqttDispatcher initialized!
+2017-02-03 12:51:32,188 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51504-1486122680208-0:1) uptime 12.165 seconds
+2017-02-03 12:51:32,189 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51504-1486122680208-0:1) is shutdown
+2017-02-03 12:54:45,966 [INFO ] Main:25 - Logger initialized...
+2017-02-03 12:54:45,970 [INFO ] Prop:20 - Loading properties...
+2017-02-03 12:54:45,971 [INFO ] Prop:25 - Properties initialized
+2017-02-03 12:54:46,004 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 12:54:46,071 [INFO ] Reflections:229 - Reflections took 37 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-02-03 12:54:46,078 [INFO ] MqttDispatcher:86 - MqttDispatcher initialized!
+2017-02-03 12:54:47,086 [INFO ] MqttClientFactory:72 - Connected to broker!
+2017-02-03 12:54:47,093 [INFO ] MqttDispatcher:101 - Delivery complete!
+2017-02-03 12:57:51,745 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51626-1486122885785-0:1) is shutting down
+2017-02-03 12:57:51,748 [ERROR] MqttDispatcher:90 - Connection lost!
+2017-02-03 12:57:51,750 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 12:57:51,750 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 12:57:51,750 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 12:57:51,751 [ERROR] MqttDispatcher:91 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 12:57:51,753 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 12:57:51,752 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 12:57:51,754 [WARN ] Reflections:181 - given scan urls are empty. set urls in the configuration
+2017-02-03 12:57:51,754 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 12:57:51,755 [INFO ] MqttDispatcher:86 - MqttDispatcher initialized!
+2017-02-03 12:57:51,755 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 12:57:51,755 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 12:57:51,761 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51626-1486122885785-0:1) uptime 3 minutes
+2017-02-03 12:57:51,762 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51626-1486122885785-0:1) is shutdown
+2017-02-03 12:57:55,358 [INFO ] Main:25 - Logger initialized...
+2017-02-03 12:57:55,362 [INFO ] Prop:20 - Loading properties...
+2017-02-03 12:57:55,362 [INFO ] Prop:25 - Properties initialized
+2017-02-03 12:57:55,396 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 12:57:55,481 [INFO ] Reflections:229 - Reflections took 54 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-02-03 12:57:55,491 [INFO ] MqttDispatcher:86 - MqttDispatcher initialized!
+2017-02-03 12:57:56,500 [INFO ] MqttClientFactory:72 - Connected to broker!
+2017-02-03 12:57:56,507 [INFO ] MqttDispatcher:101 - Delivery complete!
+2017-02-03 13:01:04,932 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51692-1486123075173-0:1) is shutting down
+2017-02-03 13:01:04,938 [ERROR] MqttDispatcher:90 - Connection lost!
+2017-02-03 13:01:04,939 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:01:04,939 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:01:04,939 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:01:04,941 [ERROR] MqttDispatcher:91 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:01:04,942 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 13:01:04,941 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:01:04,943 [WARN ] Reflections:181 - given scan urls are empty. set urls in the configuration
+2017-02-03 13:01:04,944 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:01:04,944 [INFO ] MqttDispatcher:86 - MqttDispatcher initialized!
+2017-02-03 13:01:04,944 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:01:04,944 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:01:04,951 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51692-1486123075173-0:1) uptime 3 minutes
+2017-02-03 13:01:04,951 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51692-1486123075173-0:1) is shutdown
+2017-02-03 13:01:06,248 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:01:06,251 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:01:06,252 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:01:06,292 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 13:01:06,361 [INFO ] Reflections:229 - Reflections took 40 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-02-03 13:01:06,370 [INFO ] MqttDispatcher:91 - MqttDispatcher initialized!
+2017-02-03 13:01:07,380 [INFO ] MqttClientFactory:72 - Connected to broker!
+2017-02-03 13:01:07,387 [INFO ] MqttDispatcher:106 - Delivery complete!
+2017-02-03 13:12:41,917 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51736-1486123266068-0:1) is shutting down
+2017-02-03 13:12:41,919 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 13:12:41,919 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 13:12:41,921 [ERROR] MqttDispatcher:95 - Connection lost!
+2017-02-03 13:12:41,922 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:12:41,923 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:12:41,922 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:12:41,924 [ERROR] MqttDispatcher:96 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:12:41,926 [INFO ] MqttClientFactory:39 - Connecting to broker...
+2017-02-03 13:12:41,925 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:12:41,927 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:12:41,927 [WARN ] Reflections:181 - given scan urls are empty. set urls in the configuration
+2017-02-03 13:12:41,927 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:12:41,927 [INFO ] MqttDispatcher:91 - MqttDispatcher initialized!
+2017-02-03 13:12:41,927 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:12:41,934 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51736-1486123266068-0:1) uptime 11 minutes
+2017-02-03 13:12:41,935 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51736-1486123266068-0:1) is shutdown
+2017-02-03 13:12:45,507 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:12:45,510 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:12:45,511 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:12:45,557 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:12:45,642 [INFO ] Reflections:229 - Reflections took 49 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-02-03 13:12:45,651 [INFO ] MqttDispatcher:87 - MqttDispatcher initialized!
+2017-02-03 13:12:46,663 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 13:12:46,669 [INFO ] MqttDispatcher:102 - Delivery complete!
+2017-02-03 13:15:44,292 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51881-1486123965317-0:1) is shutting down
+2017-02-03 13:15:44,294 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 13:15:44,295 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 13:15:44,296 [ERROR] MqttDispatcher:91 - Connection lost!
+2017-02-03 13:15:44,298 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:15:44,298 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:15:44,298 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:15:44,299 [ERROR] MqttDispatcher:92 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:15:44,302 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:15:44,300 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:15:44,302 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:15:44,302 [WARN ] Reflections:181 - given scan urls are empty. set urls in the configuration
+2017-02-03 13:15:44,302 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:15:44,302 [INFO ] MqttDispatcher:87 - MqttDispatcher initialized!
+2017-02-03 13:15:44,303 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:15:44,311 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51881-1486123965317-0:1) uptime 2 minutes
+2017-02-03 13:15:44,311 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51881-1486123965317-0:1) is shutdown
+2017-02-03 13:15:45,595 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:15:45,599 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:15:45,600 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:15:45,640 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:15:45,641 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:15:45,700 [INFO ] Reflections:229 - Reflections took 32 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-02-03 13:15:45,707 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:15:46,716 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 13:15:46,723 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:16:23,270 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51912-1486124145413-0:1) is shutting down
+2017-02-03 13:16:23,272 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 13:16:23,272 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 13:16:23,274 [ERROR] MqttDispatcher:94 - Connection lost!
+2017-02-03 13:16:23,275 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:16:23,275 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:16:23,275 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:16:23,277 [ERROR] MqttDispatcher:95 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:16:23,279 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:16:23,279 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:16:23,279 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:16:23,279 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:16:23,279 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:16:23,279 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:16:23,280 [INFO ] Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-02-03 13:16:23,280 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:16:23,287 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51912-1486124145413-0:1) uptime 38.085 seconds
+2017-02-03 13:16:23,287 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51912-1486124145413-0:1) is shutdown
+2017-02-03 13:16:25,572 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:16:25,576 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:16:25,578 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:16:25,633 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:16:25,635 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:16:25,772 [INFO ] Reflections:229 - Reflections took 72 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-02-03 13:16:25,793 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:16:26,801 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 13:16:26,820 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=ActiveMQ/Advisory/MasterBroker, message= ]
+2017-02-03 13:16:26,821 [INFO ] MqttDispatcher:121 - Routing 'ActiveMQ/Advisory/MasterBroker' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=t2,  async=true, subscription=# ]
+2017-02-03 13:16:26,821 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:16:26,822 [INFO ] Subscribers:14 - Enter test/+: -ActiveMQ/Advisory/MasterBroker
+2017-02-03 13:16:26,822 [INFO ] Subscribers:15 - Leave test/+: -ActiveMQ/Advisory/MasterBroker
+2017-02-03 13:16:26,822 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=ActiveMQ/Advisory/Consumer/Topic/#, message= ]
+2017-02-03 13:16:26,822 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/playground/client1/logging/alert/info, message=Connected! ]
+2017-02-03 13:16:26,823 [INFO ] MqttDispatcher:121 - Routing 'root/playground/client1/logging/alert/info' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=t2,  async=true, subscription=# ]
+2017-02-03 13:16:26,824 [INFO ] Subscribers:14 - Enter test/+: -root/playground/client1/logging/alert/info
+2017-02-03 13:16:26,824 [INFO ] Subscribers:15 - Leave test/+: -root/playground/client1/logging/alert/info
+2017-02-03 13:17:31,262 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51925-1486124185375-0:1) is shutting down
+2017-02-03 13:17:31,264 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 13:17:31,264 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 13:17:31,266 [ERROR] MqttDispatcher:94 - Connection lost!
+2017-02-03 13:17:31,268 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:17:31,268 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:17:31,268 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:17:31,269 [ERROR] MqttDispatcher:95 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:17:31,271 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:17:31,272 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:17:31,271 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:17:31,272 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:17:31,272 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:17:31,272 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:17:31,273 [INFO ] Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-02-03 13:17:31,281 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51925-1486124185375-0:1) uptime 1 minute
+2017-02-03 13:17:31,281 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51925-1486124185375-0:1) is shutdown
+2017-02-03 13:17:32,588 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:17:32,591 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:17:32,592 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:17:32,635 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:17:32,636 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:17:32,712 [INFO ] Reflections:229 - Reflections took 48 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-02-03 13:17:32,731 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:17:33,740 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 13:17:33,761 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=ActiveMQ/Advisory/MasterBroker, message= ]
+2017-02-03 13:17:33,762 [INFO ] MqttDispatcher:121 - Routing 'ActiveMQ/Advisory/MasterBroker' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=someMethod,  async=true, subscription=# ]
+2017-02-03 13:17:33,762 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:17:33,763 [INFO ] Subscribers:14 - Enter test/+: -ActiveMQ/Advisory/MasterBroker
+2017-02-03 13:17:33,763 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=ActiveMQ/Advisory/Consumer/Topic/#, message= ]
+2017-02-03 13:17:33,763 [INFO ] Subscribers:15 - Leave test/+: -ActiveMQ/Advisory/MasterBroker
+2017-02-03 13:17:33,763 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/playground/client1/logging/alert/info, message=Connected! ]
+2017-02-03 13:17:33,764 [INFO ] MqttDispatcher:121 - Routing 'root/playground/client1/logging/alert/info' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=someMethod,  async=true, subscription=# ]
+2017-02-03 13:17:33,765 [INFO ] Subscribers:14 - Enter test/+: -root/playground/client1/logging/alert/info
+2017-02-03 13:17:33,765 [INFO ] Subscribers:15 - Leave test/+: -root/playground/client1/logging/alert/info
+2017-02-03 13:26:44,549 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51937-1486124252391-0:1) is shutting down
+2017-02-03 13:26:44,551 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 13:26:44,552 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 13:26:44,553 [ERROR] MqttDispatcher:94 - Connection lost!
+2017-02-03 13:26:44,555 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:26:44,555 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:26:44,555 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:26:44,556 [ERROR] MqttDispatcher:95 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:26:44,558 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:26:44,558 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:26:44,558 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:26:44,558 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:26:44,558 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:26:44,559 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:26:44,560 [INFO ] Reflections:229 - Reflections took 2 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 13:26:44,567 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51937-1486124252391-0:1) uptime 9 minutes
+2017-02-03 13:26:44,567 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-51937-1486124252391-0:1) is shutdown
+2017-02-03 13:26:45,845 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:26:45,849 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:26:45,850 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:26:45,888 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:26:45,889 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:26:45,955 [INFO ] Reflections:229 - Reflections took 39 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 13:26:45,973 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:26:46,979 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 13:26:47,002 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:26:47,003 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:26:47,008 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/async/1, message=hello world 1 ]
+2017-02-03 13:26:47,009 [INFO ] MqttDispatcher:121 - Routing 'root/async/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample1,  async=true, subscription=root/async/1 ]
+2017-02-03 13:26:47,009 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:26:47,009 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/async/2, message=hello world 2 ]
+2017-02-03 13:26:47,010 [INFO ] MqttDispatcher:121 - Routing 'root/async/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample2,  async=true, subscription=root/async/2 ]
+2017-02-03 13:26:48,509 [INFO ] Subscribers:15 - Enter root/async/1 ,msg: hello world 1
+2017-02-03 13:26:48,522 [INFO ] Subscribers:21 - Enter root/async/2 ,msg: hello world 2
+2017-02-03 13:28:27,390 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-52016-1486124805663-0:1) is shutting down
+2017-02-03 13:28:27,392 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 13:28:27,392 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 13:28:27,394 [ERROR] MqttDispatcher:94 - Connection lost!
+2017-02-03 13:28:27,396 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:28:27,396 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:28:27,397 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:28:27,397 [ERROR] MqttDispatcher:95 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:28:27,399 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:28:27,399 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:28:27,400 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:28:27,400 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:28:27,400 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:28:27,400 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:28:27,401 [INFO ] Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 13:28:27,402 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:28:27,408 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-52016-1486124805663-0:1) uptime 1 minute
+2017-02-03 13:28:27,408 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-52016-1486124805663-0:1) is shutdown
+2017-02-03 13:28:29,744 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:28:29,748 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:28:29,749 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:28:29,785 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:28:29,787 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:28:29,868 [INFO ] Reflections:229 - Reflections took 53 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 13:28:29,889 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:28:30,899 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 13:28:30,917 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:30,918 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:30,923 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/async/1, message=hello async world 1 ]
+2017-02-03 13:28:30,923 [INFO ] MqttDispatcher:121 - Routing 'root/async/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample1,  async=true, subscription=root/async/1 ]
+2017-02-03 13:28:30,924 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:30,924 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/async/2, message=hello async world 2 ]
+2017-02-03 13:28:30,924 [INFO ] MqttDispatcher:121 - Routing 'root/async/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample2,  async=true, subscription=root/async/2 ]
+2017-02-03 13:28:32,424 [INFO ] Subscribers:15 - Enter root/async/1, msg: hello async world 1
+2017-02-03 13:28:32,425 [INFO ] Subscribers:21 - Enter root/async/2, msg: hello async world 2
+2017-02-03 13:28:32,904 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:32,904 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/sync/1, message=hello sync world 1 ]
+2017-02-03 13:28:32,905 [INFO ] MqttDispatcher:121 - Routing 'root/sync/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample1,  async=false, subscription=root/sync/1 ]
+2017-02-03 13:28:32,905 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:32,914 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/sync/2, message=hello sync world 2 ]
+2017-02-03 13:28:32,914 [INFO ] MqttDispatcher:121 - Routing 'root/sync/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample2,  async=false, subscription=root/sync/2 ]
+2017-02-03 13:28:34,415 [INFO ] Subscribers:28 - Enter root/sync/1, msg: hello sync world 1
+2017-02-03 13:28:35,919 [INFO ] Subscribers:35 - Enter root/sync/2, msg: hello sync world 2
+2017-02-03 13:28:42,205 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-52033-1486124909553-0:1) is shutting down
+2017-02-03 13:28:42,208 [ERROR] MqttDispatcher:94 - Connection lost!
+2017-02-03 13:28:42,211 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:28:42,211 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 13:28:42,211 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message Disconnect!
+2017-02-03 13:28:42,212 [ERROR] MqttDispatcher:95 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 13:28:42,213 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:28:42,214 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:28:42,214 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 13:28:42,214 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 13:28:42,214 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 13:28:42,214 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 13:28:42,215 [INFO ] Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 13:28:42,216 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:28:42,223 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-52033-1486124909553-0:1) uptime 12.902 seconds
+2017-02-03 13:28:42,223 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-52033-1486124909553-0:1) is shutdown
+2017-02-03 13:28:44,486 [INFO ] Main:25 - Logger initialized...
+2017-02-03 13:28:44,490 [INFO ] Prop:20 - Loading properties...
+2017-02-03 13:28:44,491 [INFO ] Prop:25 - Properties initialized
+2017-02-03 13:28:44,527 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 13:28:44,529 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 13:28:44,595 [INFO ] Reflections:229 - Reflections took 41 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 13:28:44,617 [INFO ] MqttDispatcher:90 - MqttDispatcher initialized!
+2017-02-03 13:28:45,628 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 13:28:45,647 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:45,648 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:45,653 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/async/1, message=hello async world 1 ]
+2017-02-03 13:28:45,654 [INFO ] MqttDispatcher:121 - Routing 'root/async/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample1,  async=true, subscription=root/async/1 ]
+2017-02-03 13:28:45,654 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:45,654 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/async/2, message=hello async world 2 ]
+2017-02-03 13:28:45,655 [INFO ] MqttDispatcher:121 - Routing 'root/async/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample2,  async=true, subscription=root/async/2 ]
+2017-02-03 13:28:47,157 [INFO ] Subscribers:15 - Enter root/async/1, msg: hello async world 1
+2017-02-03 13:28:47,157 [INFO ] Subscribers:21 - Enter root/async/2, msg: hello async world 2
+2017-02-03 13:28:50,645 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:50,645 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/sync/1, message=hello sync world 1 ]
+2017-02-03 13:28:50,646 [INFO ] MqttDispatcher:121 - Routing 'root/sync/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample1,  async=false, subscription=root/sync/1 ]
+2017-02-03 13:28:50,646 [INFO ] MqttDispatcher:105 - Delivery complete!
+2017-02-03 13:28:50,646 [INFO ] MqttDispatcher:112 - Message arrived: [ topic=root/sync/2, message=hello sync world 2 ]
+2017-02-03 13:28:50,646 [INFO ] MqttDispatcher:121 - Routing 'root/sync/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample2,  async=false, subscription=root/sync/2 ]
+2017-02-03 13:28:52,148 [INFO ] Subscribers:28 - Enter root/sync/1, msg: hello sync world 1
+2017-02-03 13:28:53,651 [INFO ] Subscribers:35 - Enter root/sync/2, msg: hello sync world 2
