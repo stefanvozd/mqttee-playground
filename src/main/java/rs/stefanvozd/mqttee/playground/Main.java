@@ -58,10 +58,9 @@ public class Main {
 
 	public static void mqttReceive() {
 		try {
-			MqttClientFactory.setMainClass(Main.class);
 
 			MqttAsyncClient pcli = MqttClientFactory
-					.getConnectedMqttAsyncClient();
+					.getConnectedMqttAsyncClient(Main.class);
 
             clientStub(pcli);
 

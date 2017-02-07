@@ -1,0 +1,244 @@
+2017-02-03 16:15:38,270 [INFO ] Main:25 - Logger initialized...
+2017-02-03 16:15:38,274 [INFO ] Prop:20 - Loading properties...
+2017-02-03 16:15:38,274 [INFO ] Prop:25 - Properties initialized
+2017-02-03 16:15:38,335 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 16:15:38,337 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 16:15:38,497 [INFO ] Reflections:229 - Reflections took 115 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 16:15:38,538 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-54082-1486134938086-0:1) is shutting down
+2017-02-03 16:15:38,542 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 16:15:38,542 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 16:15:38,542 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 16:15:38,542 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 16:15:38,549 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 16:15:38,550 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 16:15:38,551 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 16:15:38,552 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 16:15:38,573 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-54082-1486134938086-0:1) uptime 0.699 seconds
+2017-02-03 16:15:38,575 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-54082-1486134938086-0:1) is shutdown
+2017-02-03 16:16:17,926 [INFO ] Main:25 - Logger initialized...
+2017-02-03 16:16:17,929 [INFO ] Prop:20 - Loading properties...
+2017-02-03 16:16:17,930 [INFO ] Prop:25 - Properties initialized
+2017-02-03 16:16:17,965 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 16:16:17,966 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 16:16:18,030 [INFO ] Reflections:229 - Reflections took 39 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 16:16:18,045 [INFO ] MqttDispatcher:96 - MqttDispatcher initialized!
+2017-02-03 16:16:19,053 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 16:16:19,093 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:19,095 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:19,100 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/async/1, message=hello async world 1 ]
+2017-02-03 16:16:19,101 [INFO ] MqttDispatcher:127 - Routing 'root/async/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample,  async=true, subscription=root/async/+ ]
+2017-02-03 16:16:19,102 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:19,102 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/async/2, message=hello async world 2 ]
+2017-02-03 16:16:19,102 [INFO ] MqttDispatcher:127 - Routing 'root/async/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample,  async=true, subscription=root/async/+ ]
+2017-02-03 16:16:21,105 [INFO ] Subscribers:17 - Enter root/async/1, msg: hello async world 1
+2017-02-03 16:16:21,106 [INFO ] Subscribers:17 - Enter root/async/2, msg: hello async world 2
+2017-02-03 16:16:24,064 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:24,064 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/sync/1, message=hello sync world 1 ]
+2017-02-03 16:16:24,065 [INFO ] MqttDispatcher:127 - Routing 'root/sync/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample,  async=false, subscription=root/sync/+ ]
+2017-02-03 16:16:24,066 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:24,066 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/sync/2, message=hello sync world 2 ]
+2017-02-03 16:16:24,067 [INFO ] MqttDispatcher:127 - Routing 'root/sync/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample,  async=false, subscription=root/sync/+ ]
+2017-02-03 16:16:26,068 [INFO ] Subscribers:24 - Enter root/sync/1, msg: hello sync world 1
+2017-02-03 16:16:28,069 [INFO ] Subscribers:24 - Enter root/sync/2, msg: hello sync world 2
+2017-02-03 16:16:29,065 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:29,065 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=on ]
+2017-02-03 16:16:29,066 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-03 16:16:29,066 [INFO ] Subscribers:32 - 
+         |
+ \     _____     /
+     /       \
+    (         )
+-   ( ))))))) )   -
+     \ \   / /
+      \|___|/
+  /    |___|    \
+       |___|    
+       |___|
+2017-02-03 16:16:31,068 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:31,069 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=off ]
+2017-02-03 16:16:31,069 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-03 16:16:31,069 [INFO ] Subscribers:44 - 
+     _____  
+   .'     `.
+  /         \
+ |           | 
+ '.  +^^^+  .'
+   `. \./ .'
+     |_|_|  
+     (___)    
+     (___)
+     `---'
+2017-02-03 16:16:33,072 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:16:33,073 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=on ]
+2017-02-03 16:16:33,073 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-03 16:16:33,073 [INFO ] Subscribers:32 - 
+         |
+ \     _____     /
+     /       \
+    (         )
+-   ( ))))))) )   -
+     \ \   / /
+      \|___|/
+  /    |___|    \
+       |___|    
+       |___|
+2017-02-03 16:26:12,664 [INFO ] Main:25 - Logger initialized...
+2017-02-03 16:26:12,667 [INFO ] Prop:20 - Loading properties...
+2017-02-03 16:26:12,668 [INFO ] Prop:25 - Properties initialized
+2017-02-03 16:26:12,699 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 16:26:12,701 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 16:26:12,771 [INFO ] Reflections:229 - Reflections took 45 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 16:26:12,788 [INFO ] MqttDispatcher:96 - MqttDispatcher initialized!
+2017-02-03 16:26:13,798 [INFO ] MqttClientFactory:75 - Connected to broker!
+2017-02-03 16:26:13,821 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:13,823 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:13,823 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:13,827 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/async/1, message=hello async world 1 ]
+2017-02-03 16:26:13,828 [INFO ] MqttDispatcher:127 - Routing 'root/async/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample,  async=true, subscription=root/async/+ ]
+2017-02-03 16:26:13,828 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/async/2, message=hello async world 2 ]
+2017-02-03 16:26:13,828 [INFO ] MqttDispatcher:127 - Routing 'root/async/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample,  async=true, subscription=root/async/+ ]
+2017-02-03 16:26:15,832 [INFO ] Subscribers:17 - Enter root/async/2, msg: hello async world 2
+2017-02-03 16:26:15,832 [INFO ] Subscribers:17 - Enter root/async/1, msg: hello async world 1
+2017-02-03 16:26:18,808 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:18,810 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/sync/1, message=hello sync world 1 ]
+2017-02-03 16:26:18,811 [INFO ] MqttDispatcher:127 - Routing 'root/sync/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample,  async=false, subscription=root/sync/+ ]
+2017-02-03 16:26:18,811 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:18,821 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/sync/2, message=hello sync world 2 ]
+2017-02-03 16:26:18,821 [INFO ] MqttDispatcher:127 - Routing 'root/sync/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample,  async=false, subscription=root/sync/+ ]
+2017-02-03 16:26:20,822 [INFO ] Subscribers:24 - Enter root/sync/1, msg: hello sync world 1
+2017-02-03 16:26:22,825 [INFO ] Subscribers:24 - Enter root/sync/2, msg: hello sync world 2
+2017-02-03 16:26:23,810 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:23,811 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=on ]
+2017-02-03 16:26:23,811 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-03 16:26:23,811 [INFO ] Subscribers:32 - 
+         |
+ \     _____     /
+     /       \
+    (         )
+-   ( ))))))) )   -
+     \ \   / /
+      \|___|/
+  /    |___|    \
+       |___|    
+       |___|
+2017-02-03 16:26:25,813 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:25,813 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=off ]
+2017-02-03 16:26:25,814 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-03 16:26:25,814 [INFO ] Subscribers:44 - 
+     _____  
+   .'     `.
+  /         \
+ |           | 
+ '.  +^^^+  .'
+   `. \./ .'
+     |_|_|  
+     (___)    
+     (___)
+     `---'
+2017-02-03 16:26:27,818 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-03 16:26:27,819 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=on ]
+2017-02-03 16:26:27,819 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-03 16:26:27,819 [INFO ] Subscribers:32 - 
+         |
+ \     _____     /
+     /       \
+    (         )
+-   ( ))))))) )   -
+     \ \   / /
+      \|___|/
+  /    |___|    \
+       |___|    
+       |___|
+2017-02-03 16:37:09,364 [INFO ] BrokerService:807 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-54140-1486135572481-0:1) is shutting down
+2017-02-03 16:37:09,366 [INFO ] TcpTransportServer:485 - socketQueue interrupted - stopping
+2017-02-03 16:37:09,366 [INFO ] TransportConnector:243 - Could not accept connection during shutdown  : java.lang.InterruptedException
+2017-02-03 16:37:09,370 [ERROR] MqttDispatcher:100 - Connection lost!
+2017-02-03 16:37:09,373 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 16:37:09,373 [WARN ] MQTTProtocolConverter:672 - Failed to publish Will Message test/dead
+2017-02-03 16:37:09,373 [ERROR] MqttDispatcher:101 - Connection lost
+Connection lost (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:146)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:65)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:107)
+	... 1 more
+2017-02-03 16:37:09,375 [INFO ] MqttClientFactory:42 - Connecting to broker...
+2017-02-03 16:37:09,375 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-03 16:37:09,373 [INFO ] TransportConnector:294 - Connector MQTTConn stopped
+2017-02-03 16:37:09,376 [INFO ] Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-03 16:37:09,377 [INFO ] PListStoreImpl:396 - PListStore:[/Users/stefanvozd/projects/mqtt/mqttee-playground/mqtt-example1-embeded-broker/activemq-data/localhost/tmp_storage] stopped
+2017-02-03 16:37:09,377 [INFO ] MqttDispatcher:96 - MqttDispatcher initialized!
+2017-02-03 16:37:09,377 [INFO ] KahaDBStore:263 - Stopping async queue tasks
+2017-02-03 16:37:09,378 [INFO ] KahaDBStore:277 - Stopping async topic tasks
+2017-02-03 16:37:09,378 [INFO ] KahaDBStore:305 - Stopped KahaDB
+2017-02-03 16:37:09,385 [INFO ] BrokerService:868 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-54140-1486135572481-0:1) uptime 10 minutes
+2017-02-03 16:37:09,385 [INFO ] BrokerService:870 - Apache ActiveMQ 5.14.3 (localhost, ID:Stefans-MacBook-Pro.local-54140-1486135572481-0:1) is shutdown
+2017-02-07 16:34:18,851 [INFO ] Main:25 - Logger initialized...
+2017-02-07 16:34:18,855 [INFO ] Prop:20 - Loading properties...
+2017-02-07 16:34:18,857 [INFO ] Prop:25 - Properties initialized
+2017-02-07 16:34:18,933 [INFO ] MqttClientFactory:48 - Connecting to broker...
+2017-02-07 16:34:18,935 [INFO ] MqttDispatcher:42 - Scanning: rs.stefanvozd.mqttee.playground
+2017-02-07 16:34:19,090 [INFO ] Reflections:229 - Reflections took 70 ms to scan 1 urls, producing 2 keys and 6 values 
+2017-02-07 16:34:19,118 [INFO ] MqttDispatcher:96 - MqttDispatcher initialized!
+2017-02-07 16:34:20,128 [INFO ] MqttClientFactory:81 - Connected to broker!
+2017-02-07 16:34:20,150 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:20,152 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:20,158 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/async/1, message=hello async world 1 ]
+2017-02-07 16:34:20,158 [INFO ] MqttDispatcher:127 - Routing 'root/async/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample,  async=true, subscription=root/async/+ ]
+2017-02-07 16:34:20,159 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:20,159 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/async/2, message=hello async world 2 ]
+2017-02-07 16:34:20,159 [INFO ] MqttDispatcher:127 - Routing 'root/async/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=asyncExample,  async=true, subscription=root/async/+ ]
+2017-02-07 16:34:22,161 [INFO ] Subscribers:17 - Enter root/async/2, msg: hello async world 2
+2017-02-07 16:34:22,161 [INFO ] Subscribers:17 - Enter root/async/1, msg: hello async world 1
+2017-02-07 16:34:25,137 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:25,137 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/sync/1, message=hello sync world 1 ]
+2017-02-07 16:34:25,137 [INFO ] MqttDispatcher:127 - Routing 'root/sync/1' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample,  async=false, subscription=root/sync/+ ]
+2017-02-07 16:34:25,138 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:25,138 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=root/sync/2, message=hello sync world 2 ]
+2017-02-07 16:34:25,138 [INFO ] MqttDispatcher:127 - Routing 'root/sync/2' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=syncExample,  async=false, subscription=root/sync/+ ]
+2017-02-07 16:34:27,142 [INFO ] Subscribers:24 - Enter root/sync/1, msg: hello sync world 1
+2017-02-07 16:34:29,145 [INFO ] Subscribers:24 - Enter root/sync/2, msg: hello sync world 2
+2017-02-07 16:34:30,140 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:30,141 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=on ]
+2017-02-07 16:34:30,141 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-07 16:34:30,141 [INFO ] Subscribers:32 - 
+         |
+ \     _____     /
+     /       \
+    (         )
+-   ( ))))))) )   -
+     \ \   / /
+      \|___|/
+  /    |___|    \
+       |___|    
+       |___|
+2017-02-07 16:34:32,143 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:32,143 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=off ]
+2017-02-07 16:34:32,144 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-07 16:34:32,144 [INFO ] Subscribers:44 - 
+     _____  
+   .'     `.
+  /         \
+ |           | 
+ '.  +^^^+  .'
+   `. \./ .'
+     |_|_|  
+     (___)    
+     (___)
+     `---'
+2017-02-07 16:34:34,144 [INFO ] MqttDispatcher:111 - Delivery complete!
+2017-02-07 16:34:34,144 [INFO ] MqttDispatcher:118 - Message arrived: [ topic=room/living/light, message=on ]
+2017-02-07 16:34:34,145 [INFO ] MqttDispatcher:127 - Routing 'room/living/light' to method: [ class=class rs.stefanvozd.mqttee.playground.Subscribers, method=iotLightExample,  async=false, subscription=room/living/light ]
+2017-02-07 16:34:34,145 [INFO ] Subscribers:32 - 
+         |
+ \     _____     /
+     /       \
+    (         )
+-   ( ))))))) )   -
+     \ \   / /
+      \|___|/
+  /    |___|    \
+       |___|    
+       |___|
