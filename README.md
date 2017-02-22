@@ -7,6 +7,7 @@ Paste following into terminal:
 git clone https://github.com/stefanvozd/MqttEE.git <br />
 cd MqttEE <br />
 mvn clean install <br />
+cd.. <br />
 
 git clone https://github.com/stefanvozd/mqttee-playground.git <br />
 cd mqttee-playground <br />
